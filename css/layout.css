@@ -1,3 +1,56 @@
-@media only screen and (max-width: 600px) {
-    
+@import url('https://fonts.googleapis.com/css?family=Righteous&display=swap');
+
+@media only screen and (min-width: 1000px) {
+
+    .grid-containter {
+        grid-template-columns: 20% 20% 20% 20% 20%;
+        grid-template-rows: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
+    }
+
+    .sidenav a {
+        position: absolute;
+        left: -7.5%;
+        transition: 0.3s;
+        padding: 1%;
+        width: 8%;
+        text-decoration: none;
+        font-size: 1.2vw;
+        border-radius: 0 0.8em 0.8em 0;
+        color: white;
+    }
+
+    .sidenav a:hover {
+        left: 0%;
+    }
+
+    .about {
+        top: 1%;
+        background-color: #33A7FF;
+        font-family: 'Righteous', cursive;
+    }
+
+    .skills {
+        top: 9.2%;
+        background-color: #33A7FF;
+        font-family: 'Righteous', cursive;
+    }
+
+    .experience {
+        top: 17.45%;
+        background-color: #33A7FF;
+        font-family: 'Righteous', cursive;
+    }
+
+    .empty1 {
+        top: 25.7%;
+        background-color: #33A7FF;
+        font-family: 'Righteous', cursive;
+    }
+
+    .empty2 {
+        top: 34%;
+        background-color: #33A7FF;
+        font-family: 'Righteous', cursive;
+    }
+
 }
