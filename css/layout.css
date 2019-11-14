@@ -1,15 +1,23 @@
 @import url('https://fonts.googleapis.com/css?family=Righteous&display=swap');
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 350px) {
+
 
     * {
         margin: 0;
         padding: 0;
     }
 
+    body {
+        background-color: #474747;
+        width: 80%;
+        margin: auto;
+    }
+
     .grid-containter {
         grid-template-columns: 20% 20% 20% 20% 20%;
         grid-template-rows: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
+      
     }
 
     .sidenav a {
@@ -22,6 +30,138 @@
         font-size: 1.2vw;
         border-radius: 0 0.8em 0.8em 0;
         color: white;
+        display: none;
+        visibility: hidden;
+    }
+
+    .sidenav-m a {
+        font-size: 3.5vw;
+        text-decoration: none;
+        padding-left: 2.5%;
+        padding-right: 2.5%;
+        color: white;
+        background-color: red;
+    }
+
+    .sidenav a:hover {
+        left: 0%;
+    }
+
+    .about {
+        font-family: 'Righteous', cursive;
+    }
+    .skills {
+        font-family: 'Righteous', cursive;
+    }
+
+    .experience {
+        font-family: 'Righteous', cursive;
+    }
+
+    .empty1 {
+        font-family: 'Righteous', cursive;
+    }
+
+    .empty2 {
+        font-family: 'Righteous', cursive;
+    }
+
+    .header {
+        grid-row: 1/2;
+        grid-column: 0/5;
+        font-family: 'Righteous', cursive;
+        font-size: 5vw;
+        padding-left: 5%;
+        margin-top: -1%;
+        color:white;
+    }
+
+    .stock1 {
+        width: 20vw;
+        height: 35vh;
+        position: relative;
+        float: left;
+        padding-right: 2.5%;
+        padding-left: 1%;
+    }
+    
+    .box1 {
+        grid-row: 2/4;
+        grid-column: 0/5;
+        font-size: 2.5vw;
+        font-family: 'Righteous', cursive;
+        color: white;
+    }
+
+    .imgbox {
+        margin-top: 1%;
+        grid-row: 4/7;
+        grid-column: 0/5;
+    }
+
+    .stock2 {
+        width: 50%;
+        height: 50vh;
+        float: left;
+    }
+
+    .stock3 {
+        width: 50%;
+        height: 50vh;
+        float: right;
+    }
+
+    .footer {
+        grid-row: 9/10;
+        grid-column: 0/5;
+        font-family: 'Righteous', cursive;
+        text-align: center;
+        background-color: #FF4444;
+        color: white;
+        font-size: 3.5vw;
+    }
+}
+
+@media only screen and (min-width: 351px) and (max-width: 699px) {
+    body {
+        background-color: green;
+    }
+}
+
+@media only screen and (min-width: 700px) and (max-width: 2500px) {
+
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        background-color: #474747;
+        width: 80%;
+        margin: auto;
+    }
+
+    .grid-containter {
+        grid-template-columns: 20% 20% 20% 20% 20%;
+        grid-template-rows: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
+      
+    }
+
+    .sidenav a {
+        position: absolute;
+        left: -7.5%;
+        transition: 0.3s;
+        padding: 1%;
+        width: 8%;
+        text-decoration: none;
+        font-size: 1.2vw;
+        border-radius: 0 0.8em 0.8em 0;
+        color: white;
+    }
+
+    .sidenav-m {
+        display: none;
+        visibility: hidden;
     }
 
     .sidenav a:hover {
@@ -62,7 +202,7 @@
         grid-column: 0/5;
         font-family: 'Righteous', cursive;
         font-size: 5vw;
-        padding-left: 10%;
+        padding-left: 5%;
         margin-top: -1%;
         color:white;
     }
@@ -80,7 +220,6 @@
         grid-row: 2/4;
         grid-column: 0/5;
         font-size: 2.5vw;
-        padding-left: 10%;
         font-family: 'Righteous', cursive;
         color: white;
     }
@@ -112,5 +251,4 @@
         color: white;
         font-size: 3.5vw;
     }
-
 }
