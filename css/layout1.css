@@ -41,6 +41,11 @@
         background-color: #FF4444;
     }
 
+    .sidenav-m {
+        margin-left: 3.25%;
+        margin-right: 3.25%;
+    }
+
     .sidenav a:hover {
         left: 0%;
     }
@@ -117,6 +122,39 @@
         float: right;
     }
 
+    .stock4 {
+        width: 50%;
+        height: 50vh;
+        float: right;
+        margin: 1%;
+    }
+
+    .stock5 {
+        width: 50%;
+        height: 50vh;
+        float: left;
+    }
+
+    .stock6 {
+        width: 50%;
+        height: 50vh;
+        float: right;
+    }
+
+    .stock7 {
+        width: 50%;
+        height: 50vh;
+        float: left;
+        margin: 1%;
+    }
+
+    .stock8 {
+        width: 50%;
+        height: 50vh;
+        float: right;
+        margin: 1%;
+    }
+
     .footer {
         grid-row: 9/10;
         grid-column: 0/5;
@@ -168,6 +206,11 @@
         padding-right: 2.5%;
         color: white;
         background-color: #FF4444;
+    }
+
+    .sidenav-m {
+        margin-left: 4.25%;
+        margin-right: 4.25%;
     }
 
     .sidenav a:hover {
@@ -245,6 +288,39 @@
         width: 50%;
         height: 50vh;
         float: right;
+    }
+
+    .stock4 {
+        width: 50%;
+        height: 50vh;
+        float: right;
+        margin: 1%;
+    }
+
+    .stock5 {
+        width: 50%;
+        height: 50vh;
+        float: left;
+    }
+
+    .stock6 {
+        width: 50%;
+        height: 50vh;
+        float: right;
+    }
+
+    .stock7 {
+        width: 50%;
+        height: 50vh;
+        float: left;
+        margin: 1%;
+    }
+
+    .stock8 {
+        width: 50%;
+        height: 50vh;
+        float: right;
+        margin: 1%;
     }
 
     .footer {
@@ -375,6 +451,39 @@
         width: 50%;
         height: 50vh;
         float: right;
+    }
+
+    .stock4 {
+        width: 50%;
+        height: 50vh;
+        float: right;
+        margin: 1%;
+    }
+
+    .stock5 {
+        width: 50%;
+        height: 50vh;
+        float: left;
+    }
+
+    .stock6 {
+        width: 50%;
+        height: 50vh;
+        float: right;
+    }
+
+    .stock7 {
+        width: 50%;
+        height: 50vh;
+        float: left;
+        margin: 1%;
+    }
+
+    .stock8 {
+        width: 50%;
+        height: 50vh;
+        float: right;
+        margin: 1%;
     }
 
     .footer {
