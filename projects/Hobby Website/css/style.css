@@ -1,0 +1,41 @@
+@font-face {
+    font-family: 'Reqnad';
+    src: url('fonts/ReqnadGeometrikBeta0.1-Regular.otf') format('opentype');
+}
+
+.fontLL{
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 37px;
+    font-family: 'Reqnad'; 
+    line-height: 1em;
+    letter-spacing: 0.05em;
+    }
+.fontLS {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 25px;
+    font-family: 'Reqnad'; 
+    line-height: 1em;
+    letter-spacing: 0.05em;
+    width:70%;
+    }
+
+.body { 
+    background-image: url(../images/orange_pattern.jpg) 
+}
+
+.img { 
+        padding:0px;
+        border:5px solid rgba(255, 255, 255, 0.8);
+}
+
+.box { 
+    background-color: rgba(255, 255, 255, 0.8);
+    padding:5px;
+    font-size:20px;
+    font-weight:bold;
+    width:50%;
+}

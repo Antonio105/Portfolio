@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css?family=Yeseva+One&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap');
+
+a {
+    font-family: 'Yeseva One', cursive;
+    color: white;
+    text-decoration: none;
+    padding: 0.26em 0.26em;
+}
+
+.media a:hover {
+    background-color: rgba(255,255,255, 0.65);
+}
+
+a img:hover {
+    opacity: 0.70;
+    transition: .2s;
+    backface-visibility: hidden;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    padding-left: 10px;
+    padding-right: 10px;
+    
+}
+
+p {
+    color:black;
+    padding-left:10px;
+    padding-right: 10px;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin: 0;
+}
+
+.facebook {
+    position: absolute;
+    top: 2.3em;
+    right: 14.035em;
+}
+
+.twitter {
+    position: absolute;
+    top: 2.3em;
+    right: 12.035em;
+}
+
+.instagram {
+    position: absolute;
+    top: 2.3em;
+    right: 16.035em;
+}
+
+.downtown {
+    position: absolute;
+    left: 37.5em;
+}
+
+.fhighschool {
+    position: absolute;
+    left: 37.5em;
+}
+
+.flagstaff-home2 {
+    position: absolute;
+    left: 37.5em;
+}
+
+.border-image {
+    border: 10px solid transparent;
+    background-color:white;
+    border-image-slice: 175;
+    border-image-width: 25px;
+    border-image-outset: 20px;
+    border-image-repeat: repeat;
+}
+

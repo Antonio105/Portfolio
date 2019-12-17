@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="css/grid.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>Flagstaff Schools</title>
+    <link rel="icon" href="images/arizona-icon.png" type="image/x-icon" sizes="8x8 16x16 32x32">
+    <style>
+.image-effect{ 
+    width: 50%;
+}
+
+.image{
+    opacity: 1;
+    display: block;
+    transition: 0.5s ease;
+    backface-visibility: hidden;
+}
+
+.box {
+    transition: 0.5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 21em;
+    left: 24em;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.box2 {
+    transition: 0.5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 10em;
+    left: 16.5em;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.box3 {
+    transition: 0.5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 88em;
+    left: 24em;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.image-effect:hover .image{
+    opacity: 0.3;
+}
+
+.image-effect:hover .box {
+    opacity: 1;
+}
+
+.image-effect:hover .box2 {
+    opacity: 1;
+}
+
+.image-effect:hover .box3 {
+    opacity: 1;
+}
+
+.nautext {
+    background-color: #003466;
+    color: #FFD200;
+    font-size: 210%;
+    padding: 0.2em 1em;
+    font-family: 'Oswald', sans-serif;
+}
+
+.fhstext {
+    background-color: white;
+    color: green;
+    font-size: 160%;
+    padding: 0.1em 0.7em;
+    font-family: 'Oswald', sans-serif;
+}
+
+.chstext {
+    background-color: black;
+    color: red;
+    font-size: 200%;
+    padding: 0.2em 1em;
+    font-family: 'Oswald', sans-serif;
+}
+</style>
+
+</head>
+<body class="grid-container">
+
+    <div class="nav3 media">
+        <a href="index.html">Flagstaff</a>
+        <a href="flagstaff-activities.html">Activities</a>
+        <a href="flagstaff-schools.html">Schools</a>
+        <a href="flagstaff-statistics.html">Statistics</a>
+    </div>
+
+    <div class="a3">
+        <div class="image-effect">
+            <img class="image" src="images/nau.jpg" width="770px" height="550px" alt="NAU Campus">
+            <div class="box">
+                <div class="nautext">NAU<a href="https://nau.edu/"><img src="images/map.png" alt="map icon" width="30px" height="30px"></a></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="b3">
+        <h3><strong>1. Northern Arizona University</strong></h3>
+        <p>Northern Arizona University is a public institution that was founded in 1899. It has a total undergraduate enrollment of 27,078, and the campus size is 683 acres. It utilizes a semester-based academic calendar, and its ranking in the 2020 edition of Best Colleges is National Universities was #293-#381.</p>
+    </div>
+
+    <div class="c3">
+            <div class="fhighschool image-effect">
+                    <img class="image" src="images/flagstaff-highschool.jpg" width="800px" height="500px" alt="Flagstaff High School">
+                    <div class="box2">
+                        <div class="fhstext">FHS<a href="https://www.fusd1.org/FHS"><img src="images/fhs-icon.png" width="40px" height="40px" alt="FHS Icon"></a></div>
+                    </div>
+            </div>
+                <h3><strong>2. Flagstaff High School</strong></h3>
+                <p>Flagstaff High School is a secondary school in Flagstaff, Arizona. It has been opened to 
+        <br>    the public since 1923, and has a graduation rate of 97%. Students have the opportunity 
+        <br>    to take Advanced Placement® coursework and exams. The AP® participation rate at 
+        <br>    Flagstaff High School is 29%. The total minority enrollment is 51%, and 34% of students 
+        <br>    are economically disadvantaged.</p>
+    </div>
+    
+    <div class="d3">
+        <div class="image-effect">
+            <img class="image" src="images/coco-highschool.jpg" width="770px" height="500px" alt="Coconino High School">
+            <div class="box3">
+                <div class="chstext">CHS<a href="https://www.fusd1.org/chs"><img src="images/chs-icon.png" width="40px" height="36px" alt="CHS Icon"></a></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="e3">
+        <h3><strong>3. Coconino High School</strong></h3>
+        <p>Coconino High School is a secondary school located in Flagstaff, Arizona. It's a great school for students to get involved and it has a graduation rate of 83%. Students also have the opportunity to take Advanced Placement® coursework and exams. The AP® participation rate at Coconino High School is 17%.
+    </div>
+
+</body>
+</html>
+
