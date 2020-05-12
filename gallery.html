@@ -1,59 +1,40 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Experience</title>
-    <link type="text/css" rel="stylesheet" href="css/layout1.css">
+    <title>Gallery</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link type="text/css" rel="stylesheet" href="css/style-gallery.css">
     <link rel="icon" href="images/icon.png" type="image/x-icon" sizes="8x8 16x16 32x32">
 </head>
-<body class="grid-container">
-    <div>
-        <div class="sidenav">
-            <a href="index.html" class="about">About</a>
-            <a href="skills.html" class="skills">Skills</a>
-            <a href="experience.html" class="experience">Experience</a>
-            <a href="gallery.html" class="empty1">Gallery</a>
-            <a href="coding-program.html" class="empty2">Coding Program</a>
-        </div>
+<body>
+<div class="Small-Landscape">
+    <!--Dropdown Navigation-->
+    <div class="navigationTop">
+        <a href="index.html" class="homeButton">Antonio Gil</a>
+            <div id="links">
+                <a href="about.html" class="Mlink">About</a>
+                <a href="skills.html" class="Mlink">Skills</a>
+                <a href="gallery.html" class="Mlink">Gallery</a>
+                <a href="experience.html" class="Mlink">Experience</a>
+                <a href="coding-program.html" class="Mlink">Coding Program</a>
+            </div>
+        <a href="javascript:void(0)" class="icon" onclick="dropFunction()">
+        <i class="fa fa-bars"></i>
+        </a>
     </div>
-
-    <div class="header">
-        <h1>Gallery</h1>
-    </div>
-
-    <div>
-        <div class="sidenav-m">
-            <a href="index.html" class="about">About</a>
-            <a href="skills.html" class="skills">Skills</a>
-            <a href="experience.html" class="experience">Experience</a>
-            <a href="gallery.html" class="empty1">Gallery</a>
-            <a href="coding-program.html" class="empty2">Coding</a>
-        </div>
-    </div>
-
-    <div class="project1">
-        <h1>Arizona Travel Site</h1>
-        <a class="project1-img" href="projects/Flagstaff Travel Website/index.html"><img src="images/project1.png" width="70%" alt="Arizona Travel Site"></a>
-    </div>
-
-    <div class="project2">
-        <h1>Toy Site</h1>
-        <a class="project2-img" href="projects/Toy Project (Final Version)/index.html"><img src="images/toy.png" width="70%" alt="Toy Site"></a>
-    </div>
-
-    <div class="project3">
-        <h1>West Mec Coding Site</h1>
-        <a class="project3-img" href="projects/West Mec Coding Website/index.html"><img src="images/project3.png" width="70%" alt="West Mec Coding Site"></a>
-    </div>
-
-    <div class="project4">
-        <h1>Hobby Site</h1>
-        <a class="project4-img" href="projects/Hobby Website/index.html"><img src="images/project4.png" width="70%" alt="Hobby Site"></a>
-    </div>
-
-    <div class="footer">
-        <h6>Antonio Gil (602-###-####)</h6>
-    </div>
-
-
+    <script>
+        function dropFunction() {
+            var x = document.getElementById("links");
+            if (x.style.display === "block") {
+                x.style.display = "none";
+            } 
+            else {
+                x.style.display = "block";
+            }
+        }
+    </script>
+    <!--Dropdown Navigation - End-->
+</div>
 </body>
 </html>

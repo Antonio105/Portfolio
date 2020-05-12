@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Nunito&display=swap');
 
 /*Phone*/
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 500px)  {
     * {
         margin: 0;
         padding: 0;
