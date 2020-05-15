@@ -17,6 +17,13 @@
         padding: 0;
     }
     
+    .main-container {
+        min-height: 100vh;
+        overflow: hidden;
+        position: relative;
+        padding-bottom: 8vh;
+    }
+    
     body {
         background-color: #555;
     }
@@ -25,6 +32,7 @@
         overflow: hidden;
         background-color: #333;
         position: relative;
+        font-family: 'Nunito', sans-serif;
     }
 
     .navigationTop #links {
@@ -49,8 +57,8 @@
         background: black;
         display: block;
         position: absolute;
-        padding-top: 2.22vw;
-        padding-bottom: 2.22vw;
+        padding-top: 2.015vw;
+        padding-bottom: 2.015vw;
         right: 0;
         top: 0;
     }
@@ -67,6 +75,64 @@
         font-family: 'Nunito', sans-serif;
     }
 /*Dropdown Navigation - End*/
+    .mini-container1 {
+        padding-top: 9vh;
+        width: 70%;
+        margin: auto;
+        font-family: 'Nunito', sans-serif;
+        color: white;
+        line-height: 30%;
+    }
+
+    .Mimage {
+        width: 25vw;
+        float: left;
+        padding-right: 2vw;
+    }
+
+    .fancy-name {
+        padding-top: 1vw;
+        font-size: 3vw;
+    }
+
+    .Ctext {
+        font-size: 1.2vw;
+        display: inline;  
+    }
+/*Footer - Start*/
+    .footer1 {
+        position: absolute;
+        padding-top: 0.5vw;
+        bottom: 0; 
+        width: 100%;
+        height: 6vh;
+        background: black;
+        color: white;
+        font-size: 1.5vw;
+    }
+
+    .Wfooter {
+        float: left;
+        padding-left: 1vw;
+        padding-right: 1vw;
+        padding-top: 0.2vw;
+        font-family: 'Nunito', sans-serif;
+    }
+
+    .Btop {
+        padding-top: 0.2vw;
+        padding-right: 1vw;
+        float: right;
+        text-decoration: none;
+        color: white;
+        font-family: 'Nunito', sans-serif;
+    }
+
+    .Btop:hover {
+        color: #333;
+        transition: 0.2s ease;
+    }
+/*Footer - End*/
 }
 
 /*Medium Device*/
