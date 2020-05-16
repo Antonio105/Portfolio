@@ -6,13 +6,6 @@
         display: none;
     }
 
-    .main-container {
-        min-height: 100vh;
-        overflow: hidden;
-        position: relative;
-        padding-bottom: 8vh;
-    }
-
     body {
         background-color: red;
     }
@@ -24,6 +17,13 @@
         padding: 0;
     }
     
+    .main-container {
+        min-height: 100vh;
+        overflow: hidden;
+        position: relative;
+        padding-bottom: 12vh;
+    }
+
     body {
         background-color: #555;
     }
@@ -75,6 +75,113 @@
         font-family: 'Nunito', sans-serif;
     }
 /*Dropdown Navigation - End*/
+    .projects {
+        font-family: 'Nunito', sans-serif;
+        font-size: 6vw;
+        padding-left: 40vw;
+        color: white;
+    }
+/*Image Collage Setup - Start*/
+
+    .collage-container {
+        width: 70%;
+        margin-left: 20%;
+    }
+
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0 1vw;
+    }
+
+    .column {
+        flex: 46%;
+        max-width: 46%;
+        width: 0 1vw;
+    }
+
+    .column img {
+        margin-top: 1vw;
+        vertical-align: middle;
+        width: 30vw;
+        transition: 0.3s ease;
+    }
+
+    .project1:hover {
+        filter: grayscale(80%);
+        transition: 0.3s ease;
+    }
+
+    .project2:hover {
+        filter: grayscale(80%);
+        transition: 0.3s ease;
+    }
+    
+    .project3:hover{
+        filter: grayscale(80%);
+        transition: 0.3s ease;
+    }
+
+    .project4:hover {
+        filter: grayscale(80%);
+        transition: 0.3s ease;
+    }
+
+    .project5:hover {
+        filter: grayscale(80%);
+        transition: 0.3s ease;
+    }
+
+    .project6:hover {
+        filter: grayscale(80%);
+        transition: 0.3s ease;
+    }
+
+    .project7:hover {
+        filter: grayscale(80%);
+        transition: 0.3s ease;
+    }
+
+    .project8:hover{
+        filter: grayscale(80%);
+        transition: 0.3s ease;
+    }
+/*Image Collage Setup - End*/
+
+/*Footer - Start*/
+    .footer1 {
+        position: absolute;
+        padding-top: 0.5vw;
+        bottom: 0; 
+        width: 100%;
+        height: 6vh;
+        background: black;
+        color: white;
+        font-size: 1.5vw;
+    }
+
+    .Wfooter {
+        float: left;
+        padding-left: 1vw;
+        padding-right: 1vw;
+        padding-top: 0.2vw;
+        font-family: 'Nunito', sans-serif;
+    }
+
+    .Btop {
+        padding-top: 0.2vw;
+        padding-right: 1vw;
+        float: right;
+        text-decoration: none;
+        color: white;
+        font-family: 'Nunito', sans-serif;
+    }
+
+    .Btop:hover {
+        color: #333;
+        transition: 0.2s ease;
+    }
+/*Footer - End*/
 }
 
 /*Medium Device*/

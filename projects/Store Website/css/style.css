@@ -1,0 +1,263 @@
+@import url('https://fonts.googleapis.com/css?family=Sriracha&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #FF7BE1; 
+}
+
+.grid-container {
+    display: grid;
+    grid-template-rows: 20% 20% 20% 20% 20% 20% 20%;
+    grid-template-columns: 25% 25% 25% 25%;
+    background-color: #FF7BE1;
+    height: 100%;
+}
+
+.header {
+    grid-row: 1/2;
+    grid-column: 1/5;
+    text-align: center;
+    font-family: 'Sriracha', cursive;
+    font-size: 2.5vw;
+    padding-top: 3.2%;
+    margin-top: -1%;
+    color: white;
+    clear: both;
+}
+
+.candy-icon {
+    float: right;
+    margin-left: 1%;
+    margin-top: -8%;
+    margin-right: 9%;
+    width: 120px;
+}
+
+.navigation {
+    grid-row: 3/4;
+    grid-column: 1/5;
+    text-align: center;
+    font-family: 'Sriracha', cursive;
+    margin-top: -18%;
+}
+
+.search-bar {
+    font-size: 2vw;
+}
+
+table {
+    background-color: #4CAF50;
+    margin-left: 28.5%;
+    border-spacing: 10px;
+    padding: 1%;
+    margin-top: -10%;
+}
+
+figcaption {
+    font-size: 1.5vw;
+    text-align: center;
+    font-family: 'Sriracha', cursive;
+    color: white;
+}
+
+.navigation button {
+    font-size: 2.3vw;
+    margin-top: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+    background-color: #4CAF50; 
+    border: none;
+    outline: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+
+.navigation button:hover {
+    font-size: 2.3vw;
+    margin-top: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+    background-color: #4CDF00; 
+    border: 2px solid #787878; 
+    outline: none;
+    transition: 0.3s ease;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.navigation button:active {
+    font-size: 2.3vw;
+    margin-top: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+    background-color: #FF5038; 
+    border: none;
+    outline: none;
+    transition: 0.1s ease;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.content {
+    margin-top: -28%;
+    padding-bottom: 30%;
+    grid-row: 5/7;
+    grid-column: 1/5;
+}
+
+/*Image Styling*/
+
+.img1:hover {
+    filter: saturate(60%);
+    transition: 0.15s ease;
+}
+
+.img2:hover {
+    filter: saturate(60%);
+    transition: 0.15s ease;
+}
+
+.img3:hover {
+    filter: saturate(60%);
+    transition: 0.15s ease;
+}
+
+.img4:hover {
+    filter: saturate(60%);
+    transition: 0.15s ease;
+}
+
+.img5:hover {
+    filter: saturate(60%);
+    transition: 0.15s ease;
+}
+
+.img6:hover {
+    filter: saturate(60%);
+    transition: 0.15s ease;
+}
+
+.img7:hover {
+    filter: saturate(60%);
+    transition: 0.15s ease;
+}
+
+.img8:hover {
+    filter: saturate(60%);
+    transition: 0.15s ease;
+}
+
+.img9:hover {
+    filter: saturate(60%);
+    transition: 0.15s ease;
+}
+
+.img10:hover {
+    filter: saturate(60%);
+    transition: 0.15s ease;
+}
+
+.img11:hover {
+    filter: saturate(60%);
+    transition: 0.15s ease;
+}
+
+.img12:hover {
+    filter: saturate(60%);
+    transition: 0.15s ease;
+}
+
+.img1 {
+    width: 200px;
+    height: 220px;
+    border: 2.5px solid #787878;
+    transition: 0.15s ease;
+}
+
+.img2{
+    width: 200px;
+    height: 220px;
+    border: 2.5px solid #787878;
+    transition: 0.15s ease;
+}
+
+.img3{
+    width: 200px;
+    height: 220px;
+    border: 2.5px solid #787878;
+    transition: 0.15s ease;
+}
+
+.img4{
+    width: 200px;
+    height: 220px;
+    border: 2.5px solid #787878;
+    transition: 0.15s ease;
+}
+
+.img5{
+    width: 200px;
+    height: 220px;
+    border: 2.5px solid #787878;
+    transition: 0.15s ease;
+}
+
+.img6{
+    width: 200px;
+    height: 220px;
+    border: 2.5px solid #787878;
+    transition: 0.15s ease;
+}
+
+.img7{
+    width: 200px;
+    height: 220px;
+    border: 2.5px solid #787878;
+    transition: 0.15s ease;
+}
+
+.img8{
+    width: 200px;
+    height: 220px;
+    border: 2.5px solid #787878;
+    transition: 0.15s ease;
+}
+
+.img9{
+    width: 200px;
+    height: 220px;
+    border: 2.5px solid #787878;
+    transition: 0.15s ease;
+}
+
+.img10{
+    width: 200px;
+    height: 220px;
+    border: 2.5px solid #787878;
+    transition: 0.15s ease;
+}
+
+.img11{
+    width: 200px;
+    height: 220px;
+    border: 2.5px solid #787878;
+    transition: 0.15s ease;
+}
+
+.img12{
+    width: 200px;
+    height: 220px;
+    border: 2.5px solid #787878;
+    transition: 0.15s ease;
+}

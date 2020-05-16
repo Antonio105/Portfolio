@@ -161,9 +161,18 @@
     .skill-img {
         width: 40vw;
         padding-left: 2vw;
+        padding-right: 1vw;
+        float: left;
     }
 
-
+    .skill-text {
+        color: white;
+        font-family: 'Nunito', sans-serif;
+        font-size: 2vw;
+        padding-right: 2vw;
+        padding-top: 3.5vw;
+        text-align: center;
+    }
 
 /*Skill Container - End*/
 

@@ -78,9 +78,23 @@
     .ready {
         font-family: 'Nunito', sans-serif;
         font-size: 6vw;
-        padding-left: 4vw;
+        padding-left: 23vw;
         color: white;
     }
+
+/*Home Container - Start*/
+    .home-container {
+        width: 83%;
+        margin-left: 15%;
+    }   
+
+    .home-container img {
+        width: 35vw;
+        height: 25vw;
+        display: inline-block;
+    }
+/*Home Container - End*/
+
 /*Footer - Start*/
     .footer1 {
         position: absolute;
