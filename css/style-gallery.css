@@ -6,6 +6,10 @@
         display: none;
     }
 
+    .Medium-Landscape {
+        display: none;
+    }
+
     body {
         background-color: red;
     }
@@ -15,6 +19,10 @@
     * {
         margin: 0;
         padding: 0;
+    }
+
+    .Medium-Landscape {
+        display: none;
     }
     
     .main-container {
@@ -82,7 +90,6 @@
         color: white;
     }
 /*Image Collage Setup - Start*/
-
     .collage-container {
         width: 70%;
         margin-left: 20%;
@@ -189,6 +196,10 @@
     div.Small-Landscape {
         display: none;
     }
+
+    .Medium-Landscape {
+        display: none;
+    }
    
     body {
         background-color: purple;
@@ -199,15 +210,169 @@
     div.Small-Landscape {
         display: none;
     }
-   
-    body {
-        background-color: orange;
+
+    .main-container {
+        min-height: 100vh;
+        overflow: hidden;
+        position: relative;
+        padding-bottom: 8vh;
     }
+
+    * {
+        margin: 0;
+        padding: 0;
+    }
+  
+    body {
+        background-color: #555;
+    }
+
+/*Horizontal Navigation Menu - Start*/
+    .topnavigation2 {
+        overflow: hidden;
+        background-color: #333;
+        font-family: 'Nunito', sans-serif;
+    }
+
+    .topnavigation2 a {
+        float: left;
+        color: white;
+        text-align: center;
+        padding: 1.8vw 2vw;
+        text-decoration: none;
+        font-size: 2vw;
+    }
+
+    .topnavigation2 a:hover {
+        background-color: #ddd;
+        color: white;
+    }
+
+    .active2 {
+        background-color: #FCAF50;
+        color: white;
+    }
+/*Horizontal Navigation Menu - End*/
+    .projects {
+        font-family: 'Nunito', sans-serif;
+        font-size: 6vw;
+        padding-left: 40vw;
+        color: white;
+    }
+/*Gallery Container - Start*/
+    .collage-container {
+        width: 70%;
+        margin-left: 20%;
+        padding-bottom: 1vw;
+    }
+
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0 1vw;
+    }
+
+    .column {
+        flex: 46%;
+        max-width: 46%;
+        width: 0 1vw;
+    }
+
+    .column img {
+        margin-top: 1vw;
+        vertical-align: middle;
+        width: 30vw;
+        transition: 0.3s ease;
+    }
+
+    .project1:hover {
+        filter: grayscale(80%);
+        transition: 0.3s ease;
+    }
+
+    .project2:hover {
+        filter: grayscale(80%);
+        transition: 0.3s ease;
+    }
+
+    .project3:hover{
+        filter: grayscale(80%);
+        transition: 0.3s ease;
+    }
+
+    .project4:hover {
+        filter: grayscale(80%);
+        transition: 0.3s ease;
+    }
+
+    .project5:hover {
+        filter: grayscale(80%);
+        transition: 0.3s ease;
+    }
+
+    .project6:hover {
+        filter: grayscale(80%);
+        transition: 0.3s ease;
+    }
+
+    .project7:hover {
+        filter: grayscale(80%);
+        transition: 0.3s ease;
+    }
+
+    .project8:hover{
+        filter: grayscale(80%);
+        transition: 0.3s ease;
+    }
+/*Gallery Container - End*/
+    .description2 {
+        color: white;
+        font-family: 'Nunito', sans-serif;
+        text-align: center;
+    }
+/*Footer - Start*/
+    .footer1 {
+        position: absolute;
+        padding-top: 0.5vw;
+        bottom: 0; 
+        width: 100%;
+        height: 6vh;
+        background: #333;
+        color: white;
+        font-size: 1.5vw;
+    }
+
+    .Wfooter {
+        float: left;
+        padding-left: 1vw;
+        padding-right: 1vw;
+        padding-top: 0.2vw;
+        font-family: 'Nunito', sans-serif;
+    }
+
+    .Btop {
+        padding-top: 0.2vw;
+        padding-right: 1vw;
+        float: right;
+        text-decoration: none;
+        color: white;
+        font-family: 'Nunito', sans-serif;
+    }
+
+    .Btop:hover {
+        color: black;
+        transition: 0.2s ease;
+    }
+/*Footer - End*/
 }
 
 /*Large Device*/
 @media screen and (min-width: 551px) and (orientation: portrait) {
     div.Small-Landscape {
+        display: none;
+    }
+
+    .Medium-Landscape {
         display: none;
     }
    
@@ -218,6 +383,10 @@
 
 @media screen and (min-width: 801px) and (orientation: landscape) {
     div.Small-Landscape {
+        display: none;
+    }
+
+    .Medium-Landscape {
         display: none;
     }
    

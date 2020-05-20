@@ -9,7 +9,7 @@
 </head>
 <body>
 <div class="Small-Landscape main-container">
-    <!--Dropdown Navigation-->
+<!--Dropdown Navigation-->
     <div class="navigationTop">
         <a href="index.html" class="homeButton">Coding Program</a>
             <div id="links">
@@ -34,12 +34,12 @@
             }
         }
     </script>
-    <!--Dropdown Navigation - End-->
+<!--Dropdown Navigation - End-->
     <div>
         <h1 class="program">West Mec</h1>
         <img class="logo1" src="images/west-mec.png">
     </div>
-    <!--Slideshow - Start-->
+<!--Slideshow - Start-->
        <div class="slide-container">
         <div class="p-slides slide-fade">
             <div class="slide-number">1 / 3</div>
@@ -52,7 +52,6 @@
             <img class="slides" src="images/coding2.jpg">
             <div class="slide-text">Central</div>
         </div>
-
 
         <div class="p-slides slide-fade">
             <div class="slide-number">3 / 3</div>
@@ -70,15 +69,15 @@
     <script>
         var slideIndex = 1;
         showSlides(slideIndex);
-
+    
         function plusSlides(n) {
             showSlides(slideIndex += n);
         }
-
+    
         function currentSlide(n) {
             showSlides(slideIndex = n);
         }
-
+    
         function showSlides(n) {
             var i;
             var slides = document.getElementsByClassName("p-slides");
@@ -99,11 +98,12 @@
             dots[slideIndex-1].className += " active";
         }
     </script>
-    <!--Slideshow - End-->
+<!--Slideshow - End-->
 
     <div class="west-desc">
         <p>Western Maricopa Education Center (West-MEC) is a public school district which provides career training programs for both high school and adult students in Arizona. West-MEC focuses solely on innovative career and technical education programs that prepare students to enter the workforce and pursue continuing education.</p>
     </div>
+
     <div class="footer1">
         <h4 class="Wfooter">Portfolio</h4>
         <h4 class="Wfooter">(602)-###-####</h4>
@@ -111,5 +111,95 @@
         <a class="Btop" href="#top">Back to Top	&#8593;</a>
     </div>
 </div>
+
+
+<div class="Medium-Landscape main-container">
+<!--Horizontal Navigation Menu - Start-->
+    <div class="topnavigation2">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="skills.html">Skills</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="experience.html">Experience</a>
+        <a class="active3" href="coding-program.html">Coding Program</a>
+    </div>
+<!--Horizontal Navigation Menu - End-->
+
+    <div>
+        <h1 class="program">West Mec</h1>
+        <img class="logo1" src="images/west-mec.png">
+    </div>
+<!--Slideshow - Start-->
+    <div class="slide-container2">
+        <div class="p-slides2 slide-fade2">
+            <div class="slide-number2">1 / 3</div>
+            <img class="slides2" src="images/Group4.jpg">
+            <div class="slide-text2">Northeast</div>
+        </div>
+
+        <div class="p-slides2 slide-fade2">
+            <div class="slide-number2">2 / 3</div>
+            <img class="slides2" src="images/coding2.jpg">
+            <div class="slide-text2">Central</div>
+        </div>
+
+        <div class="p-slides2 slide-fade2">
+            <div class="slide-number2">3 / 3</div>
+            <img class="slides2" src="images/Northeast.jpg">
+            <div class="slide-text2">Northeast</div>
+        </div>
+        <a class="previous2" onclick="plusSlides2(-1)">&#10094;</a>
+        <a class="next2" onclick="plusSlides2(1)">&#10095;</a>
+    </div>
+    <div style="text-align: center">
+        <span class="slide-dot2" onclick="currentSlide2(1)"></span>
+        <span class="slide-dot2" onclick="currentSlide2(2)"></span>
+        <span class="slide-dot2" onclick="currentSlide2(3)"></span>
+    </div>
+    <script>
+        var slideIndex = 1;
+        showSlides2(slideIndex);
+
+        function plusSlides2(n) {
+            showSlides2(slideIndex += n);
+        }
+
+        function currentSlide2(n) {
+            showSlides2(slideIndex = n);
+        }
+
+        function showSlides2(n) {
+            var i;
+            var slides = document.getElementsByClassName("p-slides2");
+            var dots = document.getElementsByClassName("slide-dot2");
+            if (n > slides.length) {
+                slideIndex = 1;
+            }
+            if (n < 1) {
+                slideIndex = slides.length;
+            }
+            for (i = 0; i < slides.length; i++){
+                slides[i].style.display = "none";
+            }
+            for (i = 0; i< dots.length; i++){
+                dots[i].className = dots[i].className.replace(" active2", "");
+            }
+            slides[slideIndex-1].style.display="block";
+            dots[slideIndex-1].className += " active2";
+        }
+    </script>
+<!--Slideshow - End-->
+    <div class="west-desc">
+        <p>Western Maricopa Education Center (West-MEC) is a public school district which provides career training programs for both high school and adult students in Arizona. West-MEC focuses solely on innovative career and technical education programs that prepare students to enter the workforce and pursue continuing education.</p>
+    </div>
+
+    <div class="footer1">
+        <h4 class="Wfooter">Portfolio</h4>
+        <h4 class="Wfooter">(602)-###-####</h4>
+        <h4 class="Wfooter">student.example@west-mec.org</h4>
+        <a class="Btop" href="#top">Back to Top	&#8593;</a>
+    </div>
+</div>
+
 </body>
 </html>

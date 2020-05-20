@@ -6,6 +6,10 @@
         display: none;
     }
 
+    .Medium-Landscape {
+        display: none;
+    }
+
     body {
         background-color: red;
     }
@@ -15,6 +19,10 @@
     * {
         margin: 0;
         padding: 0;
+    }
+
+    .Medium-Landscape {
+        display: none;
     }
 
     .main-container {
@@ -223,6 +231,14 @@
     div.Small-Landscape {
         display: none;
     }
+
+    .Medium-Landscape {
+        display: none;
+    }
+
+    .Medium-Landscape {
+        display: none;
+    }
    
     body {
         background-color: purple;
@@ -233,15 +249,203 @@
     div.Small-Landscape {
         display: none;
     }
-   
-    body {
-        background-color: orange;
+
+    .main-container {
+        min-height: 100vh;
+        overflow: hidden;
+        position: relative;
+        padding-bottom: 8vh;
     }
+
+    * {
+        margin: 0;
+        padding: 0;
+    }
+  
+    body {
+        background-color: #555;
+    }
+
+/*Horizontal Navigation Menu - Start*/
+    .topnavigation2 {
+        overflow: hidden;
+        background-color: #333;
+        font-family: 'Nunito', sans-serif;
+    }
+
+    .topnavigation2 a {
+        float: left;
+        color: white;
+        text-align: center;
+        padding: 1.8vw 2vw;
+        text-decoration: none;
+        font-size: 2vw;
+    }
+
+    .topnavigation2 a:hover {
+        background-color: #ddd;
+        color: white;
+    }
+
+    .active2 {
+        background-color: #FCAF50;
+        color: white;
+    }
+
+    .active3 {
+        background-color: #FCAF50;
+        color: white;
+    }
+/*Horizontal Navigation Menu - End*/
+    .program {
+        font-family: 'Nunito', sans-serif;
+        font-size: 6vw;
+        padding-left: 34vw;
+        color: white;
+        float: left;
+    }
+
+    .logo1 {
+        width: 7vw;
+        padding-top: 0.7vw;
+        padding-left: 1.2vw;
+    }
+/*Slideshow - Start*/
+    .p-slides2 {
+        display: none;
+    }
+
+    img.slides2 {
+        vertical-align: middle;
+        width: 50vw;
+    }
+
+    .slide-container2 {
+        max-width: 50vw;
+        position: relative;
+        margin: auto;
+    }
+    .previous2, .next2 {
+        cursor: pointer;
+        position: absolute;
+        top: 50%;
+        width: auto;
+        padding: 1.5vw;
+        margin-top: -2vw;
+        color: white;
+        font-weight: bold;
+        font-size: 1.5vw;
+        transition: 0.6s ease;
+        border-radius: 0 1vw 1vw 0;
+        user-select: none;
+    }
+
+    .next2 {
+        right: 0;
+        border-radius: 1vw 0 0 1vw;
+    }
+
+    .previous2:hover, .next2:hover {
+        background-color: rgba(0, 0, 0, 0.8);
+    }
+
+    .slide-text2 {
+        color: white;
+        font-size: 2vw;
+        position: absolute;
+        bottom: 0.5vw;
+        width: 100%;
+        text-align: center;
+        font-family: 'Nunito', sans-serif;
+    }
+
+    .slide-number2 {
+        color: white;
+        font-size: 1.5vw;
+        padding: 1vw 2vw;
+        position: absolute;
+        top: 0;
+    }
+
+    .slide-dot2 {
+        cursor: pointer;
+        height: 1.5vw;
+        width: 1.5vw;
+        margin: 0 0.2vw;
+        background-color: #bbb;
+        border-radius: 50%;
+        display: inline-block;
+        transition: 0.6s ease;
+    }
+
+    .active2, .dot2:hover {
+        background-color: #717171;
+        transition: 0.6s ease;
+    }
+
+    .slide-fade2 {
+        animation-name: fade;
+        animation-duration: 1.5s;
+    }
+
+    @keyframes fade {
+        from {opacity: .4}
+        to {opacity: 1}
+    }
+/*Slideshow - End*/
+    .west-desc {
+        color: white;
+        font-family: 'Nunito', sans-serif;
+        font-size: 1.5vw;
+        width: 80%;
+        margin: auto;
+        text-align: center;
+        margin-top: 0.5vw;
+        margin-bottom: 2vw;
+    }
+/*Footer - Start*/
+    .footer1 {
+        position: absolute;
+        padding-top: 0.5vw;
+        bottom: 0; 
+        width: 100%;
+        height: 6vh;
+        background: #333;
+        color: white;
+        font-size: 1.5vw;
+    }
+
+    .Wfooter {
+        float: left;
+        padding-left: 1vw;
+        padding-right: 1vw;
+        padding-top: 0.2vw;
+        font-family: 'Nunito', sans-serif;
+    }
+
+    .Btop {
+        padding-top: 0.2vw;
+        padding-right: 1vw;
+        float: right;
+        text-decoration: none;
+        color: white;
+        font-family: 'Nunito', sans-serif;
+    }
+
+    .Btop:hover {
+        color: black;
+        transition: 0.2s ease;
+    }
+/*Footer - End*/
 }
 
 /*Large Device*/
 @media screen and (min-width: 551px) and (orientation: portrait) {
     div.Small-Landscape {
+        display: none;
+    }
+
+    .Medium-Landscape {
         display: none;
     }
    
@@ -252,6 +456,10 @@
 
 @media screen and (min-width: 801px) and (orientation: landscape) {
     div.Small-Landscape {
+        display: none;
+    }
+
+    .Medium-Landscape {
         display: none;
     }
    
