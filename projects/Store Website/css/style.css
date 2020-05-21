@@ -50,11 +50,13 @@ body {
 }
 
 table {
+
     background-color: #4CAF50;
     margin-left: 28.5%;
     border-spacing: 10px;
     padding: 1%;
-    margin-top: -10%;
+    margin-top: -7vw;
+    margin-left: 31vw;
 }
 
 figcaption {

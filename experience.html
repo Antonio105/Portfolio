@@ -8,7 +8,7 @@
     <link rel="icon" href="images/icon.png" type="image/x-icon" sizes="8x8 16x16 32x32">
 </head>
 <body>
-<div class="Small-Landscape main-container">
+<div class="Small-Portrait main-container">
 <!--Dropdown Navigation-->
     <div class="navigationTop">
         <a href="index.html" class="homeButton">Experience</a>
@@ -26,6 +26,51 @@
     <script>
         function dropFunction() {
             var x = document.getElementById("links");
+            if (x.style.display === "block") {
+                x.style.display = "none";
+            } 
+            else {
+                x.style.display = "block";
+            }
+        }
+    </script>
+<!--Dropdown Navigation - End-->
+
+    <h1 class="Texperience">What Have I Done?</h1>
+
+<!--Experience Container - Start-->
+    <div class="experience-container">
+        <p>My experiences extend from working as a volunteer to help food banks to attending club conferences competing againts others. On top of that I have taken many CTE courses involving business, media, engineering, and much more. One project that stands out is the simulation business plan I created. Alongside my educational experiences, I wrestled for a decent portion of my high school career before I decided to move on and experience other areas.</p>
+        <img src="images/business-plan.jpg">
+        <img src="images/wrestling.jpg">
+    </div>
+<!--Experience Container - End-->
+
+    <div class="footer1">
+        <h4 class="Wfooter">Portfolio</h4>
+        <h4 class="Wfooter">(602)-###-####</h4>
+        <h4 class="Wfooter">student.example@west-mec.org</h4>
+    </div>
+</div>
+
+<div class="Small-Landscape main-container">
+<!--Dropdown Navigation-->
+    <div class="navigationTop">
+        <a href="index.html" class="homeButton">Experience</a>
+            <div id="links2">
+                <a href="about.html" class="Mlink">About</a>
+                <a href="skills.html" class="Mlink">Skills</a>
+                <a href="gallery.html" class="Mlink">Gallery</a>
+                <a href="experience.html" class="Mlink">Experience</a>
+                <a href="coding-program.html" class="Mlink">Coding Program</a>
+            </div>
+        <a href="javascript:void(0)" class="icon" onclick="dropFunction2()">
+        <i class="fa fa-bars"></i>
+        </a>
+    </div>
+    <script>
+        function dropFunction2() {
+            var x = document.getElementById("links2");
             if (x.style.display === "block") {
                 x.style.display = "none";
             } 
@@ -54,6 +99,33 @@
     </div>
 </div>
 
+<div class="Medium-Portrait main-container">
+    <!--Horizontal Navigation Menu - Start-->
+    <div class="topnavigation2">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="skills.html">Skills</a>
+        <a href="gallery.html">Gallery</a>
+        <a class="active2" href="experience.html">Experience</a>
+        <a href="coding-program.html">Coding Program</a>
+    </div>
+<!--Horizontal Navigation Menu - End-->
+
+    <h1 class="Texperience">What Have I Done?</h1>
+
+<!--Experience Container - Start-->
+    <div class="experience-container">
+        <img src="images/business-plan.jpg">
+        <img src="images/wrestling.jpg">
+        <p>My experiences extend from working as a volunteer to help food banks to attending club conferences competing againts others. On top of that I have taken many CTE courses involving business, media, engineering, and much more. One project that stands out is the simulation business plan I created. Alongside my educational experiences, I wrestled for a decent portion of my high school career before I decided to move on and experience other areas.</p>
+    </div>
+<!--Experience Container - End-->
+    <div class="footer1">
+        <h4 class="Wfooter">Portfolio</h4>
+        <h4 class="Wfooter">(602)-###-####</h4>
+        <h4 class="Wfooter">student.example@west-mec.org</h4>
+    </div>
+</div>
 
 <div class="Medium-Landscape main-container">
 <!--Horizontal Navigation Menu - Start-->
@@ -82,6 +154,35 @@
         <h4 class="Wfooter">student.example@west-mec.org</h4>
         <a class="Btop" href="#top">Back to Top	&#8593;</a>
     </div>
+</div>
+
+<div class="Large-Landscape main-container">
+<!--Horizontal Navigation Menu - Start-->
+        <div class="topnavigation2">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="skills.html">Skills</a>
+            <a href="gallery.html">Gallery</a>
+            <a class="active2" href="experience.html">Experience</a>
+            <a href="coding-program.html">Coding Program</a>
+        </div>
+<!--Horizontal Navigation Menu - End-->
+
+    <h1 class="Texperience">What Have I Done?</h1>
+
+<!--Experience Container - Start-->
+    <div class="experience-container">
+        <img class="pizza" src="images/business-plan.jpg">
+        <p>My experiences extend from working as a volunteer to help food banks to attending club conferences competing againts others. On top of that I have taken many CTE courses involving business, media, engineering, and much more. One project that stands out is the simulation business plan I created. Alongside my educational experiences, I wrestled for a decent portion of my high school career before I decided to move on and experience other areas.</p>
+    </div>
+<!--Experience Container - End-->
+
+    <div class="footer1">
+        <h4 class="Wfooter">Portfolio</h4>
+        <h4 class="Wfooter">(602)-###-####</h4>
+        <h4 class="Wfooter">student.example@west-mec.org</h4>
+        <a class="Btop" href="#top">Back to Top	&#8593;</a>
+    </div>  
 </div>
 
 </body>
